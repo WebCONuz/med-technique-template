@@ -1,0 +1,36 @@
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+h1,
+h2,
+h3 {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 500;
+}
+
+/* Header */
+.header__top .group li > ul {
+  transform: translatex(100%) scale(0);
+}
+.header__top .group li:hover > ul {
+  transform: translatex(101%) scale(1);
+}
+.header__top .group li > button svg {
+  transform: rotate(-90deg);
+}
+.header__top .group li:hover > button svg {
+  transform: rotate(-270deg);
+}
+.header__top .group:hover .group-hover\:scale-100 {
+  transform: scale(1);
+}
+.header__top .group:hover .group-hover\:-rotate-180 {
+  transform: rotate(180deg);
+}
+.header__top .group .scale-0 {
+  transform: scale(0);
+}
+.header__top .group .min-w-32 {
+  min-width: 8rem;
+}

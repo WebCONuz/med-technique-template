@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- page title -->
+    <title>Home page</title>
+    <!-- favicon -->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./images/header-intro/logo.png"
+    />
+    <!-- tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./css/output.css" />
+    <!-- box-icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500&family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <!-- HEADER SECTION -->
+    <header class="header">
+      <div class="header__top py-2 border-b border-gray-200">
+        <div class="container flex items-center justify-between">
+          <div class="flex">
+            <p class="pr-4 border-r border-gray-200 text-sm">(90)123 45 67</p>
+            <a href="#" class="pl-4 text-sm">Store location</a>
+          </div>
+          <div class="flex items-center">
+            <div class="pr-4 border-r border-gray-200">
+              <!-- component -->
+              <div class="group inline-block">
+                <button
+                  class="outline-none focus:outline-none flex items-center"
+                >
+                  <span class="pr-1 uppercase text-sm">USD </span>
+                  <span>
+                    <svg
+                      class="fill-current h-4 w-4 transform group-hover:-rotate-180 transition duration-150 ease-in-out"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                      />
+                    </svg>
+                  </span>
+                </button>
+                <ul
+                  class="bg-white py-2 border rounded-sm transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top min-w-32"
+                >
+                  <li
+                    class="rounded-sm px-5 py-2 my-2 cursor-pointer text-sm hover:bg-gray-100"
+                  >
+                    USD - USA Dollar
+                  </li>
+                  <li
+                    class="rounded-sm px-5 py-2 my-2 cursor-pointer text-sm hover:bg-gray-100"
+                  >
+                    RUB - RUS Ruble
+                  </li>
+                  <li
+                    class="rounded-sm px-5 py-2 my-2 cursor-pointer text-sm hover:bg-gray-100"
+                  >
+                    SOM - UZB Som
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="pl-4">
+              <a href="#" class="text-sm">Log In / Sign Up</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
