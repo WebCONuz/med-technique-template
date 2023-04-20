@@ -41,50 +41,306 @@
             <a href="#" class="pl-4 text-sm">Store location</a>
           </div>
           <div class="flex items-center">
-            <div class="pr-4 border-r border-gray-200">
-              <!-- component -->
-              <div class="group inline-block">
-                <button
-                  class="outline-none focus:outline-none flex items-center"
-                >
-                  <span class="pr-1 uppercase text-sm">USD </span>
-                  <span>
-                    <svg
-                      class="fill-current h-4 w-4 transform group-hover:-rotate-180 transition duration-150 ease-in-out"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 20 20"
-                    >
-                      <path
-                        d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
-                      />
-                    </svg>
-                  </span>
-                </button>
-                <ul
-                  class="bg-white py-2 border rounded-sm transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top min-w-32"
-                >
-                  <li
-                    class="rounded-sm px-5 py-2 my-2 cursor-pointer text-sm hover:bg-gray-100"
+            <div class="money relative pr-4 border-r border-gray-200">
+              <span class="flex items-center text-sm cursor-default">
+                USD <i class="bx bx-chevron-down text-lg"></i>
+              </span>
+              <ul
+                class="overflow-hidden opacity-0 absolute left-0 top-[120%] z-10 py-2 bg-white shadow-lg min-w-[170px] duration-300"
+              >
+                <li>
+                  <a
+                    href="#"
+                    class="hover:text-[#4E97FD] duration-200 px-5 py-2 block text-sm"
+                    >USD - USA Dollar</a
                   >
-                    USD - USA Dollar
-                  </li>
-                  <li
-                    class="rounded-sm px-5 py-2 my-2 cursor-pointer text-sm hover:bg-gray-100"
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="hover:text-[#4E97FD] duration-200 px-5 py-2 block text-sm"
+                    >RUB - RUS Ruble</a
                   >
-                    RUB - RUS Ruble
-                  </li>
-                  <li
-                    class="rounded-sm px-5 py-2 my-2 cursor-pointer text-sm hover:bg-gray-100"
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="hover:text-[#4E97FD] duration-200 px-5 py-2 block text-sm"
+                    >SOM - UZB Som</a
                   >
-                    SOM - UZB Som
-                  </li>
-                </ul>
-              </div>
+                </li>
+              </ul>
             </div>
             <div class="pl-4">
-              <a href="#" class="text-sm">Log In / Sign Up</a>
+              <a href="#" class="text-sm hover:text-[#4E97FD] duration-200"
+                >Log In &nbsp;<span class="text-gray-400">|</span>&nbsp; Sign
+                Up</a
+              >
             </div>
           </div>
+        </div>
+      </div>
+      <div class="header__main">
+        <div class="container flex items-center justify-between">
+          <a href="#" class="flex items-center">
+            <img
+              src="./images//header-intro/logo.png"
+              alt="logo"
+              class="w-8 mr-2"
+            />
+            <span class="text-3xl font-semibold">medizin</span>
+          </a>
+
+          <ul class="flex items-center">
+            <li class="py-6 mr-4 hover:text-[#4E97FD] duration-200">
+              <a href="#" class="font-medium">Home</a>
+            </li>
+            <li class="py-6 mx-4 hover:text-[#4E97FD] duration-200">
+              <a href="#" class="font-medium">Shop</a>
+            </li>
+            <li class="collection relative py-6 mx-4">
+              <span
+                class="font-medium flex items-center duration-200 cursor-default"
+              >
+                Collection <i class="bx bx-chevron-down text-lg"></i>
+              </span>
+              <div
+                class="content overflow-hidden absolute left-1/2 top-[120%] opacity-0 bg-white shadow-lg w-[80vw] p-6 duration-300 -translate-x-[46%]"
+              >
+                <div class="flex justify-between">
+                  <div>
+                    <h3 class="uppercase text-sm font-semibold text-black mb-4">
+                      ACCESSORIES
+                    </h3>
+                    <ul>
+                      <li class="mb-4">
+                        <a
+                          href="#"
+                          class="mb-4 text-gray-600 font-medium hover:text-[#4E97FD] duration-200"
+                          >Jewelry</a
+                        >
+                      </li>
+                      <li class="mb-4">
+                        <a
+                          href="#"
+                          class="mb-4 text-gray-600 font-medium hover:text-[#4E97FD] duration-200"
+                          >Sandals</a
+                        >
+                      </li>
+                      <li class="mb-4">
+                        <a
+                          href="#"
+                          class="mb-4 text-gray-600 font-medium hover:text-[#4E97FD] duration-200"
+                          >Bast shoe</a
+                        >
+                      </li>
+                      <li class="mb-4">
+                        <a
+                          href="#"
+                          class="mb-4 text-gray-600 font-medium hover:text-[#4E97FD] duration-200"
+                          >Blucher shoe</a
+                        >
+                      </li>
+                      <li class="mb-4">
+                        <a
+                          href="#"
+                          class="mb-4 text-gray-600 font-medium hover:text-[#4E97FD] duration-200"
+                          >Boat shoe</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          class="mb-4 text-gray-600 font-medium hover:text-[#4E97FD] duration-200"
+                          >Brogan</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 class="uppercase text-sm font-semibold text-black mb-4">
+                      FABRIC
+                    </h3>
+                    <ul>
+                      <li class="mb-4">
+                        <a
+                          href="#"
+                          class="text-gray-600 font-medium hover:text-[#4E97FD] duration-200"
+                          >Chelsea boot</a
+                        >
+                      </li>
+                      <li class="mb-4">
+                        <a
+                          href="#"
+                          class="text-gray-600 font-medium hover:text-[#4E97FD] duration-200"
+                          >Brothel creeper</a
+                        >
+                      </li>
+                      <li class="mb-4">
+                        <a
+                          href="#"
+                          class="text-gray-600 font-medium hover:text-[#4E97FD] duration-200"
+                          >Cufflinks</a
+                        >
+                      </li>
+                      <li class="mb-4">
+                        <a
+                          href="#"
+                          class="text-gray-600 font-medium hover:text-[#4E97FD] duration-200"
+                          >Cap</a
+                        >
+                      </li>
+                      <li class="mb-4">
+                        <a
+                          href="#"
+                          class="text-gray-600 font-medium hover:text-[#4E97FD] duration-200"
+                          >Jeans</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          class="text-gray-600 font-medium hover:text-[#4E97FD] duration-200"
+                          >Shalwar</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 class="uppercase text-sm font-semibold text-black mb-4">
+                      NEW ARRIVALS
+                    </h3>
+                    <ul>
+                      <li class="mb-4">
+                        <a
+                          href="#"
+                          class="text-gray-600 font-medium hover:text-[#4E97FD] duration-200"
+                          >Belts</a
+                        >
+                      </li>
+                      <li class="mb-4">
+                        <a
+                          href="#"
+                          class="text-gray-600 font-medium hover:text-[#4E97FD] duration-200"
+                          >Wallets</a
+                        >
+                      </li>
+                      <li class="mb-4">
+                        <a
+                          href="#"
+                          class="text-gray-600 font-medium hover:text-[#4E97FD] duration-200"
+                          >Glass</a
+                        >
+                      </li>
+                      <li class="mb-4">
+                        <a
+                          href="#"
+                          class="text-gray-600 font-medium hover:text-[#4E97FD] duration-200"
+                          >Lingerie</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          class="text-gray-600 font-medium hover:text-[#4E97FD] duration-200"
+                          >blouse</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="w-1/5">
+                    <h3 class="uppercase text-sm font-semibold text-black">
+                      BEST SELLING
+                    </h3>
+                    <div class="card">
+                      <img
+                        src="./images/header-intro/compressor.webp"
+                        alt="compressor image"
+                        class="w-full"
+                      />
+                      <a
+                        href="#"
+                        class="text-[#000000be] hover:text-[#4E97FD] duration-200"
+                      >
+                        <h3 class="mb-1 font-semibold capitalize">
+                          Portable air compressor
+                        </h3>
+                      </a>
+                      <p class="text-xs font-medium">$50.00</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="py-6 mx-4 hover:text-[#4E97FD] duration-200">
+              <a href="#" class="font-medium">Blog</a>
+            </li>
+            <li class="pages relative py-6 mx-4">
+              <span
+                class="font-medium flex items-center duration-200 cursor-default"
+              >
+                Pages <i class="bx bx-chevron-down text-lg"></i>
+              </span>
+              <ul
+                class="overflow-hidden opacity-0 absolute left-0 top-[120%] py-2 bg-white shadow-lg min-w-[170px] duration-300"
+              >
+                <li class="">
+                  <a
+                    href="#"
+                    class="hover:text-[#4E97FD] duration-200 px-5 py-2 block"
+                    >About Us</a
+                  >
+                </li>
+                <li class="">
+                  <a
+                    href="#"
+                    class="hover:text-[#4E97FD] duration-200 px-5 py-2 block"
+                    >Contact</a
+                  >
+                </li>
+                <li class="">
+                  <a
+                    href="#"
+                    class="hover:text-[#4E97FD] duration-200 px-5 py-2 block"
+                    >Privacy Policy</a
+                  >
+                </li>
+                <li class="">
+                  <a
+                    href="#"
+                    class="hover:text-[#4E97FD] duration-200 px-5 py-2 block"
+                    >Term of service</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="py-6 ml-4 hover:text-[#4E97FD] duration-200">
+              <a href="#" class="font-medium">Contact Us</a>
+            </li>
+          </ul>
+
+          <ul class="flex items-center">
+            <li>
+              <a href="#" class="text-3xl hover:text-[#4E97FD] duration-200">
+                <i class="bx bx-search"></i>
+              </a>
+            </li>
+            <li class="mx-6">
+              <a href="#" class="text-3xl hover:text-[#4E97FD] duration-200">
+                <i class="bx bx-heart"></i>
+              </a>
+            </li>
+            <li class="cart relative hover:text-[#4E97FD] cursor-pointer">
+              <a href="#" class="text-3xl duration-200">
+                <i class="bx bx-shopping-bag"></i>
+              </a>
+              <div
+                class="cart-notification absolute bottom-0 translate-x-1/4 font-semibold translate-y-[15%] right-0 z-10 w-5 h-5 flex items-center justify-center rounded-full bg-[#4E97FD] text-white p-1 text-xs"
+              >
+                7
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
     </header>

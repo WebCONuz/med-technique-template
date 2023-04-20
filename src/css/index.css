@@ -3,34 +3,28 @@
   font-weight: 400;
 }
 h1,
-h2,
-h3 {
+h2 {
   font-family: "Libre Franklin", sans-serif;
   font-weight: 500;
 }
 
 /* Header */
-.header__top .group li > ul {
-  transform: translatex(100%) scale(0);
+.header__top .money ul,
+.header__main .pages ul,
+.header__main .collection div.content {
+  visibility: hidden;
+  transition-timing-function: linear;
 }
-.header__top .group li:hover > ul {
-  transform: translatex(101%) scale(1);
+
+.header__top .money:hover ul,
+.header__main .pages:hover ul,
+.header__main .collection:hover div.content {
+  top: 80%;
+  opacity: 1;
+  visibility: visible;
 }
-.header__top .group li > button svg {
-  transform: rotate(-90deg);
-}
-.header__top .group li:hover > button svg {
-  transform: rotate(-270deg);
-}
-.header__top .group:hover .group-hover\:scale-100 {
-  transform: scale(1);
-}
-.header__top .group:hover .group-hover\:-rotate-180 {
-  transform: rotate(180deg);
-}
-.header__top .group .scale-0 {
-  transform: scale(0);
-}
-.header__top .group .min-w-32 {
-  min-width: 8rem;
+
+.header__main .collection:hover span,
+.header__main .pages:hover span {
+  color: #4e97fd;
 }
