@@ -9,16 +9,20 @@ h2 {
 }
 
 /* Header */
+
 .header__top .money ul,
 .header__main .pages ul,
-.header__main .collection div.content {
+.header__main .collection div.content,
+.header__main .cart .cart-content {
   visibility: hidden;
   transition-timing-function: linear;
 }
 
+/* , */
 .header__top .money:hover ul,
 .header__main .pages:hover ul,
-.header__main .collection:hover div.content {
+.header__main .collection:hover div.content,
+.header__main .cart:hover .cart-content {
   top: 80%;
   opacity: 1;
   visibility: visible;
