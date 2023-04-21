@@ -21,9 +21,14 @@ h2 {
 /* , */
 .header__top .money:hover ul,
 .header__main .pages:hover ul,
-.header__main .collection:hover div.content,
-.header__main .cart:hover .cart-content {
+.header__main .collection:hover div.content {
   top: 80%;
+  opacity: 1;
+  visibility: visible;
+}
+
+.header__main .cart:hover .cart-content {
+  top: 100%;
   opacity: 1;
   visibility: visible;
 }

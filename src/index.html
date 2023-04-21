@@ -30,7 +30,7 @@
   <body>
     <!-- HEADER SECTION -->
     <header class="header">
-      <div class="header__top py-2 border-b border-gray-200">
+      <div class="hidden lg:block header__top py-2 border-b border-gray-200">
         <div class="container flex items-center justify-between">
           <div class="flex">
             <p class="pr-4 border-r border-gray-200 text-sm">(90)123 45 67</p>
@@ -78,19 +78,19 @@
       </div>
       <div class="header__main">
         <div class="container flex items-center justify-between">
-          <a href="#" class="flex items-center">
+          <a href="#" class="flex items-center py-6 lg:py-0">
             <img src="./images//header/logo.png" alt="logo" class="w-8 mr-2" />
             <span class="text-3xl font-semibold">medizin</span>
           </a>
 
-          <ul class="flex items-center">
-            <li class="py-6 mr-4 hover:text-[#4E97FD] duration-200">
+          <ul class="hidden lg:flex items-center">
+            <li class="py-6 mr-3 2xl:mr-4 hover:text-[#4E97FD] duration-200">
               <a href="#" class="font-medium">Home</a>
             </li>
-            <li class="py-6 mx-4 hover:text-[#4E97FD] duration-200">
+            <li class="py-6 mx-3 2xl:mx-4 hover:text-[#4E97FD] duration-200">
               <a href="#" class="font-medium">Shop</a>
             </li>
-            <li class="collection relative py-6 mx-4">
+            <li class="collection relative py-6 mx-3 2xl:mx-4">
               <span
                 class="font-medium flex items-center duration-200 cursor-default"
               >
@@ -264,10 +264,10 @@
                 </div>
               </div>
             </li>
-            <li class="py-6 mx-4 hover:text-[#4E97FD] duration-200">
+            <li class="py-6 mx-3 2xl:mx-4 hover:text-[#4E97FD] duration-200">
               <a href="#" class="font-medium">Blog</a>
             </li>
-            <li class="pages relative py-6 mx-4">
+            <li class="pages relative py-6 mx-3 2xl:mx-4">
               <span
                 class="font-medium flex items-center duration-200 cursor-default"
               >
@@ -306,7 +306,7 @@
                 </li>
               </ul>
             </li>
-            <li class="py-6 ml-4 hover:text-[#4E97FD] duration-200">
+            <li class="py-6 ml-3 2xl:ml-4 hover:text-[#4E97FD] duration-200">
               <a href="#" class="font-medium">Contact Us</a>
             </li>
           </ul>
@@ -317,7 +317,7 @@
                 <i class="bx bx-search"></i>
               </a>
             </li>
-            <li class="mx-6">
+            <li class="mx-4 2xl:mx-6">
               <a href="#" class="text-3xl hover:text-[#4E97FD] duration-200">
                 <i class="bx bx-heart"></i>
               </a>
@@ -332,30 +332,34 @@
                 7
               </div>
               <div
-                class="cart-content opacity-0 overflow-hidden border border-gray-100 absolute right-0 top-[120%] bg-white shadow-lg min-w-[25vw] duration-300"
+                class="cart-content opacity-0 overflow-hidden absolute right-0 top-[120%] bg-white shadow-lg w-[35vw] lg:w-[25vw] duration-300"
               >
-                <div class="max-h-[200px] overflow-y-auto">
+                <div class="max-h-[200px] overflow-y-auto overflow-x-hidden">
                   <!-- 1 -->
                   <div class="cart-item relative px-4">
                     <div class="border-b border-gray-200 flex items-center">
                       <img
                         src="./images/header/bint.webp"
                         alt="bint image"
-                        class="w-[100px] h-[100px] mr-2"
+                        class="w-[80px] lg:w-[100px] h-[80px] lg:h-[100px] mr-2"
                       />
                       <div class="py-2 pr-8 relative flex-grow">
                         <a
                           href="#"
-                          class="text-gray-600 font-semibold hover:text-[#4E97FD] duration-200"
+                          class="text-sm lg:text-base text-gray-600 font-semibold hover:text-[#4E97FD] duration-200"
                           >Gardasine Vaccine</a
                         >
-                        <p class="font-semibold mt-2 text-[#4E97FD]">10.00</p>
+                        <p
+                          class="text-sm lg:text-base font-semibold mt-1 lg:mt-2 text-[#4E97FD]"
+                        >
+                          10.00
+                        </p>
                         <i
                           class="bx bx-x close text-2xl text-gray-600 absolute top-[2px] right-0 hover:text-[#4E97FD] duration-200"
                         ></i>
                       </div>
                       <div
-                        class="w-[25px] h-[25px] rounded-full bg-[#E4573D] flex items-center justify-center text-white overflow-hidden absolute top-4 left-4"
+                        class="w-[20px] h-[20px] lg:w-[25px] lg:h-[25px] rounded-full bg-[#E4573D] flex items-center justify-center text-white overflow-hidden absolute top-4 left-4"
                       >
                         <span class="text-xs flex items-baseline"> 1x </span>
                       </div>
@@ -367,21 +371,25 @@
                       <img
                         src="./images/header/termometer.webp"
                         alt="bint image"
-                        class="w-[100px] h-[100px] mr-2"
+                        class="w-[80px] lg:w-[100px] h-[80px] lg:h-[100px] mr-2"
                       />
                       <div class="py-2 pr-8 relative flex-grow">
                         <a
                           href="#"
-                          class="text-gray-600 font-semibold hover:text-[#4E97FD] duration-200"
+                          class="text-sm lg:text-base text-gray-600 font-semibold hover:text-[#4E97FD] duration-200"
                           >12-Ply Gauze Sponges - S / Purple / Metal</a
                         >
-                        <p class="font-semibold mt-2 text-[#4E97FD]">19.00</p>
+                        <p
+                          class="text-sm lg:text-base font-semibold mt-1 lg:mt-2 text-[#4E97FD]"
+                        >
+                          19.00
+                        </p>
                         <i
                           class="bx bx-x close text-2xl text-gray-600 absolute top-[2px] right-0 hover:text-[#4E97FD] duration-200"
                         ></i>
                       </div>
                       <div
-                        class="w-[25px] h-[25px] rounded-full bg-[#E4573D] flex items-center justify-center text-white overflow-hidden absolute top-4 left-4"
+                        class="w-[20px] h-[20px] lg:w-[25px] lg:h-[25px] rounded-full bg-[#E4573D] flex items-center justify-center text-white overflow-hidden absolute top-4 left-4"
                       >
                         <span class="text-xs flex items-baseline"> 2x </span>
                       </div>
@@ -390,12 +398,14 @@
                 </div>
                 <div class="px-4">
                   <div
-                    class="total flex items-center justify-between border-t border-gray-200 py-6"
+                    class="total flex items-center justify-between border-t border-gray-200 py-4 lg:py-6"
                   >
-                    <span class="text-lg font-semibold text-gray-700"
+                    <span
+                      class="text-base lg:text-lg font-semibold text-gray-700"
                       >Total:</span
                     >
-                    <span class="text-lg font-semibold text-[#4E97FD]"
+                    <span
+                      class="text-base lg:text-lg font-semibold text-[#4E97FD]"
                       >48.00$</span
                     >
                   </div>
@@ -403,16 +413,21 @@
                     class="total flex items-center justify-between border-t border-gray-200 py-6"
                   >
                     <a
-                      class="py-[14px] w-[46%] text-center bg-gray-700 text-white font-medium rounded-[35px] hover:bg-[#E4573D] duration-200"
+                      class="py-[10px] 2xl:py-[14px] w-[46%] text-center bg-gray-700 text-white font-medium rounded-[35px] hover:bg-[#E4573D] duration-200"
                       >View card</a
                     >
                     <a
-                      class="py-[14px] w-[46%] text-center bg-gray-700 text-white font-medium rounded-[35px] hover:bg-[#E4573D] duration-200"
+                      class="py-[10px] 2xl:py-[14px] w-[46%] text-center bg-gray-700 text-white font-medium rounded-[35px] hover:bg-[#E4573D] duration-200"
                       >Checkout</a
                     >
                   </div>
                 </div>
               </div>
+            </li>
+            <li class="ml-4 2xl:mr-6 lg:hidden">
+              <a href="#" class="text-4xl hover:text-[#4E97FD] duration-200">
+                <i class="bx bx-menu"></i>
+              </a>
             </li>
           </ul>
         </div>
