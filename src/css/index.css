@@ -96,3 +96,52 @@ h2 {
   font-weight: bold;
   color: #fff;
 }
+
+@media screen and (max-width: 1024px) {
+  .intro__slider .swiper-button-prev,
+  .intro__slider .swiper-button-next {
+    bottom: 35px;
+    width: 50px;
+    height: 50px;
+  }
+  .intro__slider .swiper-button-prev {
+    right: 115px;
+  }
+  .intro__slider .swiper-button-next {
+    right: 45px;
+  }
+  .intro__slider .swiper-button-prev::after,
+  .intro__slider .swiper-button-next::after {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .intro__slider .swiper-button-prev,
+  .intro__slider .swiper-button-next {
+    bottom: 25px;
+    width: 40px;
+    height: 40px;
+  }
+  .intro__slider .swiper-button-prev {
+    right: 90px;
+  }
+  .intro__slider .swiper-button-next {
+    right: 35px;
+  }
+  .intro__slider .swiper-button-prev::after,
+  .intro__slider .swiper-button-next::after {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .intro__slider .swiper-button-prev,
+  .intro__slider .swiper-button-next {
+    bottom: 20px;
+  }
+  .intro__slider .swiper-button-prev {
+    right: 65px;
+  }
+  .intro__slider .swiper-button-next {
+    right: 15px;
+  }
+}
