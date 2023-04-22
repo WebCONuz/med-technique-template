@@ -37,3 +37,28 @@ h2 {
 .header__main .pages:hover span {
   color: #4e97fd;
 }
+
+.header-responsive {
+  visibility: hidden;
+}
+.header-responsive.show {
+  visibility: visible;
+  opacity: 1;
+}
+.header-responsive.show .header-content.toRight {
+  left: 0;
+}
+.header-responsive .collection-open.active,
+.header-responsive .pages-open.active,
+.header-responsive .accessories-open.active,
+.header-responsive .fabric-open.active,
+.header-responsive .arrivals-open.active {
+  opacity: 1;
+}
+.header-responsive .collection-sub-menu.active,
+.header-responsive .pages-sub-menu.active,
+.header-responsive .accessories-sub-menu.active,
+.header-responsive .fabric-sub-menu.active,
+.header-responsive .arrivals-sub-menu.active {
+  height: auto;
+}
