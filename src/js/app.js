@@ -5,11 +5,18 @@ window.addEventListener("click", function (e) {
     responsiveHeader.classList.add("show");
     sidebar.classList.add("toRight");
   } else if (
-    e.target.classList.contains("bx-x") ||
+    e.target.classList.contains("close-sidebar") ||
     e.target.classList.contains("header-responsive")
   ) {
     responsiveHeader.classList.remove("show");
     sidebar.classList.remove("toRight");
+  }
+
+  const searchArea = document.querySelector(".search-area");
+  if (e.target.classList.contains("bx-search")) {
+    searchArea.classList.add("show");
+  } else if (e.target.classList.contains("close-search")) {
+    searchArea.classList.remove("show");
   }
 });
 
