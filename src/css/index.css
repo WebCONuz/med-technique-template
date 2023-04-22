@@ -8,8 +8,7 @@ h2 {
   font-weight: 500;
 }
 
-/* Header */
-
+/* HEADER */
 .header__top .money ul,
 .header__main .pages ul,
 .header__main .collection div.content,
@@ -17,8 +16,6 @@ h2 {
   visibility: hidden;
   transition-timing-function: linear;
 }
-
-/* , */
 .header__top .money:hover ul,
 .header__main .pages:hover ul,
 .header__main .collection:hover div.content {
@@ -26,18 +23,15 @@ h2 {
   opacity: 1;
   visibility: visible;
 }
-
 .header__main .cart:hover .cart-content {
   top: 100%;
   opacity: 1;
   visibility: visible;
 }
-
 .header__main .collection:hover span,
 .header__main .pages:hover span {
   color: #4e97fd;
 }
-
 .header-responsive {
   visibility: hidden;
 }
@@ -70,4 +64,35 @@ h2 {
 .search-area.show {
   opacity: 1;
   visibility: visible;
+}
+
+/* INTRO */
+.intro__slider .swiper-button-prev,
+.intro__slider .swiper-button-next {
+  position: absolute;
+  bottom: 40px;
+  top: auto;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: 0.1s;
+}
+.intro__slider .swiper-button-prev {
+  right: 120px;
+  left: auto;
+}
+.intro__slider .swiper-button-next {
+  right: 50px;
+  left: auto;
+}
+.intro__slider .swiper-button-prev:hover,
+.intro__slider .swiper-button-next:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.intro__slider .swiper-button-prev::after,
+.intro__slider .swiper-button-next::after {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
 }

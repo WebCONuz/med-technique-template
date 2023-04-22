@@ -72,3 +72,18 @@ arrivalsBtn.addEventListener("click", function () {
   arrivalsMenu.classList.toggle("active");
   this.classList.toggle("active");
 });
+
+// INTRO section slider
+const swiper = new Swiper(".swiper", {
+  spaceBetween: 30,
+  effect: "fade",
+  loop: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});
