@@ -111,3 +111,28 @@ const swiper2 = new Swiper(".dailySwiper", {
     },
   },
 });
+
+// CATEGORY slider
+const swiper3 = new Swiper(".categorySwiper", {
+  slidesPerView: 1,
+  spaceBetween: 10,
+  loop: true,
+  breakpoints: {
+    640: {
+      slidesPerView: 2,
+      spaceBetween: 10,
+    },
+    768: {
+      slidesPerView: 3,
+      spaceBetween: 15,
+    },
+    1024: {
+      slidesPerView: 4,
+      spaceBetween: 20,
+    },
+    1280: {
+      slidesPerView: 6,
+      spaceBetween: 20,
+    },
+  },
+});
