@@ -183,3 +183,27 @@ h2 {
   left: auto;
   right: 5px;
 }
+@media screen and (max-width: 1024px) {
+  .daily-product__slider .swiper-button-prev,
+  .daily-product__slider .swiper-button-next {
+    top: 50%;
+    width: 45px;
+    height: 45px;
+  }
+  .daily-product__slider .swiper-button-prev::after,
+  .daily-product__slider .swiper-button-next::after {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .daily-product__slider .swiper-button-prev,
+  .daily-product__slider .swiper-button-next {
+    top: 50%;
+    width: 35px;
+    height: 35px;
+  }
+  .daily-product__slider .swiper-button-prev::after,
+  .daily-product__slider .swiper-button-next::after {
+    font-size: 14px;
+  }
+}
