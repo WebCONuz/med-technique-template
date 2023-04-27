@@ -74,7 +74,7 @@ arrivalsBtn.addEventListener("click", function () {
 });
 
 // INTRO section slider
-const swiper = new Swiper(".swiper", {
+const swiper = new Swiper(".intro__slider", {
   spaceBetween: 30,
   effect: "fade",
   loop: true,
@@ -85,5 +85,29 @@ const swiper = new Swiper(".swiper", {
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
+  },
+});
+
+// DAILY PRODUCT slider
+const swiper2 = new Swiper(".dailySwiper", {
+  slidesPerView: 1,
+  spaceBetween: 10,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  breakpoints: {
+    640: {
+      slidesPerView: 2,
+      spaceBetween: 10,
+    },
+    768: {
+      slidesPerView: 3,
+      spaceBetween: 15,
+    },
+    1024: {
+      slidesPerView: 5,
+      spaceBetween: 20,
+    },
   },
 });

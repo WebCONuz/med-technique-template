@@ -8,7 +8,9 @@ h2 {
   font-weight: 500;
 }
 
-/* HEADER */
+/* ------------------------------------------------------------ */
+/* -------------------------- HEADER -------------------------- */
+/* ------------------------------------------------------------ */
 .header__top .money ul,
 .header__main .pages ul,
 .header__main .collection div.content,
@@ -66,7 +68,9 @@ h2 {
   visibility: visible;
 }
 
-/* INTRO */
+/* ----------------------------------------------------------- */
+/* -------------------------- INTRO -------------------------- */
+/* ----------------------------------------------------------- */
 .intro__slider .swiper-button-prev,
 .intro__slider .swiper-button-next {
   position: absolute;
@@ -96,7 +100,6 @@ h2 {
   font-weight: bold;
   color: #fff;
 }
-
 @media screen and (max-width: 1024px) {
   .intro__slider .swiper-button-prev,
   .intro__slider .swiper-button-next {
@@ -144,4 +147,39 @@ h2 {
   .intro__slider .swiper-button-next {
     right: 15px;
   }
+}
+
+/* ----------------------------------------------------------- */
+/* ---------------------- DAILY PRODUCT ---------------------- */
+/* ----------------------------------------------------------- */
+.daily-product__slider .swiper-button-prev,
+.daily-product__slider .swiper-button-next {
+  position: absolute;
+  bottom: auto;
+  top: 50%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(111, 111, 111, 0.534);
+  transition: 0.2s;
+  visibility: hidden;
+}
+.daily-product__slider .swiper-button-prev::after,
+.daily-product__slider .swiper-button-next::after {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+}
+.daily-product__slider:hover .swiper-button-prev,
+.daily-product__slider:hover .swiper-button-next {
+  visibility: visible;
+}
+.daily-product__slider .swiper-button-prev {
+  left: 5px;
+  right: auto;
+}
+.daily-product__slider .swiper-button-next {
+  left: auto;
+  right: 5px;
 }
