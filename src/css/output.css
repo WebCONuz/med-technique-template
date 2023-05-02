@@ -1383,6 +1383,10 @@ video {
     margin-top: 0.5rem;
   }
 
+  .sm\:mr-3 {
+    margin-right: 0.75rem;
+  }
+
   .sm\:block {
     display: block;
   }
@@ -1474,6 +1478,11 @@ video {
 
   .sm\:text-\[27px\] {
     font-size: 27px;
+  }
+
+  .sm\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 
   .sm\:leading-\[38px\] {
