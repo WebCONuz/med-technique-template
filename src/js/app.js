@@ -136,3 +136,23 @@ const swiper3 = new Swiper(".categorySwiper", {
     },
   },
 });
+
+// COMMENTS slider
+const swiper4 = new Swiper(".commentSwiper", {
+  slidesPerView: 1,
+  spaceBetween: 10,
+  pagination: {
+    el: ".commentSwiper .swiper-pagination",
+  },
+  loop: true,
+  breakpoints: {
+    640: {
+      slidesPerView: 2,
+      spaceBetween: 15,
+    },
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    },
+  },
+});
